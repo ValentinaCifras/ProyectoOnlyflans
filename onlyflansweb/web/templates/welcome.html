@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static%}
+
+<html>
+ <body>
+
+  <div class="container pb-5 mt-4">
+    <div class="row">
+        <div class="col text-center compra-aqui">
+            <h1 class="side-text pb-3">Bienvenido {{user.get_username}}  <br></h1>
+                                 <h3 class="">Tenemos una lista de productos exclusivos para ti.
+                                  Quieres conocer mas?</h3> 
+            <div>
+                <a class="btncontactanos" href="{% url 'contacto' %}">Contáctanos</a>
+            </div>                      
+        </div>
+        <div class="imagen col d-none d-sm-block pl-4">
+          <img src="{% static 'welcome.jpg' %}"  width="350px" height="400px"> 
+        </div>
+    </div>
+    
+</div>
+
+    <div class="container">
+        <div class="row">
+          {% for flan in flanes %}
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img src="{{ flan.image_url }}" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">{{ flan.name }}</h5>
+                <p class="card-text text-end">{{ flan.description }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+
+
+      
+      <div class="container p-4" id="promocion">
+          <h1 class="text-center pb-2" style="color: blueviolet;">¡PROMOCION EXCLUSIVA USUARIOS REGISTRADOS!</h1>
+          <h3 class="text-center encuentranos" style="color: blueviolet;">Visitanos en el mes de tu cumpleaños y lleva cualquiera de nuestras tortas con un 30% de descuento</h3>
+        <div class="row">
+          {% for promocion_torta in promociones_tortas %}
+          <div class="col-sm-12 col-md-6 col-lg-3 mb-4">
+            <div class="card">
+              <img src="{{ promocion_torta.image_url }}" class="card-img-top" alt="">
+              <div class="card-body">
+                <h5 class="card-title">{{ promocion_torta.name }}</h5>
+                <p class="card-text text-end">{{ promocion_torta.description }}</p>
+              </div>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+      </div>
+      
+ </body>
+</html>
+{% endblock %}

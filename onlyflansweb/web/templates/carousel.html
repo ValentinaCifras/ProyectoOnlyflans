@@ -1,0 +1,60 @@
+{% load static %}
+
+<div class="linea"></div>
+<div class="d-none d-sm-block ">
+    <div class="container py-5 my-3">
+        <div id="carouse" class="carousel slide" >
+            <div class="carousel-inner">
+
+              <!-- 1 -->
+
+              <div class="carousel-item active">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{% static '1.jpg'%}" class="d-block w-100" alt="Imagen 1">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '2.jpg'%}" class="d-block w-100" alt="Imagen 2">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '3.jpg'%}" class="d-block w-100" alt="Imagen 3">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '4.jpg'%}" class="d-block w-100" alt="Imagen 4">
+                    </div>
+                </div>
+            </div>
+        
+            <!--  2 -->
+            <div class="carousel-item">
+                <div class="row">
+                    <div class="col-md-3">
+                        <img src="{% static '5.jpg'%}" class="d-block w-100" alt="Imagen 5">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '6.jpg'%}" class="d-block w-100" alt="Imagen 6">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '7.jpg'%}" class="d-block w-100" alt="Imagen 7">
+                    </div>
+                    <div class="col-md-3">
+                        <img src="{% static '8.jpg'%}" class="d-block w-100" alt="Imagen 8">
+                    </div>
+                </div>
+            </div>
+        
+            </div>
+
+        <!--controles-->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouse" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouse" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+          
+  </div>
+  </div>

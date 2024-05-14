@@ -1,0 +1,227 @@
+
+
+.navbar-nav .nav-link {
+    color: black;
+
+}
+
+#text-nav {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 30px;
+}
+
+
+
+.text-productos{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:bold;
+    font-style:normal;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+#Acerca{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 50px;
+}
+
+.nuestra-historia{
+    background-color: #d5d4fd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    border-radius: 5px;
+    
+}
+
+#text-acerca{
+    font-family: "Dancing Script", cursive;
+    font-size: 33px;
+    text-align: center;
+ 
+}
+
+#cliente{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style:normal;
+    font-size: 50px;
+
+}
+
+
+footer{
+    
+    padding-bottom: 20px;
+}
+
+.fa-brands{
+    margin-bottom: 40px;
+    font-size:37px;
+    letter-spacing: 20px;
+}
+
+.logo-footer{
+    margin: 50px;
+    max-width: 250px;   
+}
+
+.card{
+    border-radius: 20px;
+    margin: 20px;   
+}
+
+.card-img-top{
+    border-radius: 20px;
+     
+}
+
+.linea {
+    width: 70%; 
+    height: 1px; 
+    margin: 20px auto; 
+    background-color: #000000; 
+}
+
+.card-title{
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight:bolder;
+    font-style:normal;
+    font-size: 26px;
+    text-align: right;
+
+}
+
+.pie-de-pagina{
+    background: linear-gradient(transparent,#b290fa);
+}
+
+.creadopor{
+    font-size: 20px;
+}
+
+#formulario{
+    background-color: #d5d4fd;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 5px;
+    width: 300px;
+    margin-top: 20px;
+    
+}
+
+.contactanos{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.form-label{
+    font-family: "Dancing Script", cursive;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.boton-enviar{
+    border-radius: 5px;
+    border-color:transparent;
+    background-color: #c4b3fa;
+    padding-right: 10px;
+    padding-left: 10px;
+
+}
+
+.caja{
+    border-radius: 50px;
+}
+
+#exito{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    text-align: center;
+
+}
+
+.ubicacion{
+    background-color:#c4b3fa;
+    padding: 20px;
+    border-radius: 5px;  
+    margin-bottom: 40px;
+    margin-top: 20px;
+   
+}
+
+.texto-ubicacion{
+    padding-top: 50px;
+}
+
+.encuentranos{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+    text-align: center;
+   
+
+}
+
+.texto{
+    font-family: "Dancing Script", cursive;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.login{
+    width: 300px;
+    background-color: #d5d4fd;
+    border-radius: 10px;
+    margin-top: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+
+.compra-aqui{
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    padding-top: 60px;
+    padding-left: 70px;
+}
+
+.btncontactanos{
+    background-color: #c5abfc;
+    height: 35px;
+    font-size: 20px;
+    border-color: transparent;
+    border-radius: 5px;
+    padding: 10px;
+    color: #000000;
+    text-decoration: none; 
+
+}
+
+.imagen{
+    padding-left: 90px;
+}
+
+.texto-promocion{
+    font-family: "Dancing Script", cursive;
+    font-size: 40px;
+}
+
+#promocion{
+    border-radius: 5px;
+}
+
+
